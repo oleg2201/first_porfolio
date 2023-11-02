@@ -1,5 +1,5 @@
-const bt1 = document.querySelector('bt1');
 
+const bt1 = document.querySelector('bt1');
 const audio = document.getElementById('audio');
 
 num = 0

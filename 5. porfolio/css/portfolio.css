@@ -5,6 +5,7 @@ body {
     max-width: 1180px;
     margin: 0 calc(var(--index) * 3);
     box-sizing: border-box;
+    scroll-behavior: smooth;
 
 }
 
@@ -169,6 +170,7 @@ h3 {
     flex-direction: column;
 
 }
+
 .Title {
     align-self: center;
     display: grid;
@@ -181,6 +183,7 @@ h3 {
     margin: 0;
 
 }
+
 .player {
     display: flex;
     flex-direction: column;
@@ -191,10 +194,12 @@ h3 {
     padding: 72px 0;
     justify-content: left;
     filter: invert();
-    
+
 }
 
-.bt1, .bt2, .bt3{
+.bt1,
+.bt2,
+.bt3 {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -202,5 +207,24 @@ h3 {
     cursor: pointer;
 }
 
+.Steps_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.little_history {
+    text-align: center;
+    color: #5F558E;
+    font-size: calc(var(--index) * 2.5);
+    font-family: KronaOne;
+}
 
+.lh--subtitle {
+    text-align: center;
+    width: 900px;
+    color: #646464;
+    font-family: KronaOne;
+    font-size: calc(var(--index) * 1.5);
+}
